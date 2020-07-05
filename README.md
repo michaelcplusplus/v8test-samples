@@ -3,6 +3,7 @@
 # Table of contents
 1. [Introduction](#introduction)
 2. [MQTT API](#mqtt_api)
+3. [FCM API](#fcm_api)
 
 
 ## Introduction <a name="introduction"></a>
@@ -46,5 +47,14 @@ Disconnect from the broker
 Call back function fired when message arrives
 * `callback - function (topic, payload)` 
 
-
 [Example file v8mqtt_test.js](/samples/mqtt/v8mqtt_test.js)
+
+## FCM API <a name="fcm_api"></a>
+* fcm.publish()
+
+**fcm.publish(serverKey, message)**  
+Publish a Firebase cloud message 
+* `serverKey` your server keyt, `String`
+* `message` message to publisg, `JSON - String`
+
+[Example file v8fcm.js](/samples/fcm/v8fcm.js)
