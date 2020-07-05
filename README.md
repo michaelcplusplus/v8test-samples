@@ -18,19 +18,33 @@ Sample files for Android app Exec JS V8 see https://play.google.com/store/apps/d
 * mqtt.onMqttMessage()
 
 **mqtt.connect(url, clientId, options)**
-* `url` broker url, `String`
-* `clientId` id of the client, `String`
-* `options` server options, `JSON - String`
 Connects to the broker specified by the given url and options  
-  `url` examples:  
+* `url` broker url, `String`  
+  examples:  
   `tcp://test.mosquitto.org:1883`  
   `ssl://test.mosquitto.org:8883`  
+* `clientId` id of the client, `String`
+* `options` server options, `JSON - String`
 
 
-**mqtt.publish(topic, message, qos, retain)**
+**mqtt.publish(topic, payload, qos, retain)**
+Publish a message to a topic
 * `topic` is the topic to publish to, `String`
-* `message` is the message to publish, `String`
+* `payload` is the message to publish, `String`
 * `qos` QoS level, `Number`
 * `retain` retain flag, `Boolean`
 
+**mqtt.subscribe(topic, qos)**
+Subscribe to a topic
+* `topic` is the topic to publish to, `String`
+* `qos` QoS level, `Number`
 
+**mqtt.disconnect()**
+Disconnect from the broker
+
+**mqtt.onMqttMessage(callback)**
+Call back function fired when message arrives
+* `callback - function (topic, payload)` 
+
+
+[Example file v8mqtt_test.js](/samples/mqtt/v8mqtt_test.js)
