@@ -2,8 +2,9 @@
 
 # Table of contents
 1. [Introduction](#introduction)
-2. [MQTT API](#mqtt_api)
-3. [FCM API](#fcm_api)
+2. [BASI API](#basic_api)
+3. [MQTT API](#mqtt_api)
+4. [FCM API](#fcm_api)
 
 
 ## Introduction <a name="introduction"></a>
@@ -11,6 +12,38 @@ Sample files for Android app Exec JS V8 see Google playstore https://play.google
 The app has full ECMAScript 2016 (ECMA-262) support.
 
 ![Alt text](/screenshots/Screenshot_2020-06-27-12-05-44.png?raw=true "Screenshot input form")
+
+## Basic API <a name="basic_api"></a>
+* console.log()
+* console.error()
+* console.warn()
+* \_read()
+* \_write()
+* \_inputForm()
+
+**console.log(data)**  
+Prints to result view  
+Text color: blue
+
+**console.error(data)**  
+Prints to result view  
+Text color: red
+
+**\_read(filename, \[\convert])**  
+Read filename and return content as string
+* `filename` filename, `String`
+* `convert` optinal: convert from iso8859 to utf-8 , `Number 0(default) or 1`  
+
+
+**\_write(filename, content)**  
+Write content to file
+
+**\_inputForm(title, default)**
+Open a input dialog. 
+* `title` title of the dialog, `String`
+* `default` default value of the input field, `String`  
+
+[Example file v8input.js](/samples/common/v8input.js)
 
 ## MQTT API <a name="mqtt_api"></a>
 * mqtt.connect()
