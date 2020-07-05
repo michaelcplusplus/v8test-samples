@@ -17,7 +17,7 @@ Sample files for Android app Exec JS V8 see https://play.google.com/store/apps/d
 * mqtt.disconnect()
 * mqtt.onMqttMessage()
 
-**mqtt.connect(url, clientId, options)**
+**mqtt.connect(url, clientId, options)**  
 Connects to the broker specified by the given url and options  
 * `url` broker url, `String`  
   examples:  
@@ -27,22 +27,22 @@ Connects to the broker specified by the given url and options
 * `options` server options, `JSON - String`
 
 
-**mqtt.publish(topic, payload, qos, retain)**
+**mqtt.publish(topic, payload, qos, retain)**  
 Publish a message to a topic
 * `topic` is the topic to publish to, `String`
 * `payload` is the message to publish, `String`
 * `qos` QoS level, `Number`
 * `retain` retain flag, `Boolean`
 
-**mqtt.subscribe(topic, qos)**
+**mqtt.subscribe(topic, qos)**  
 Subscribe to a topic
 * `topic` is the topic to publish to, `String`
 * `qos` QoS level, `Number`
 
-**mqtt.disconnect()**
+**mqtt.disconnect()**  
 Disconnect from the broker
 
-**mqtt.onMqttMessage(callback)**
+**mqtt.onMqttMessage(callback)**  
 Call back function fired when message arrives
 * `callback - function (topic, payload)` 
 
