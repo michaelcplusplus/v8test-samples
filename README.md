@@ -11,7 +11,7 @@
 Sample files for Android app Exec JS V8 see Google playstore https://play.google.com/store/apps/details?id=de.mlauer.v8test  
 The app has full ECMAScript 2016 (ECMA-262) support.
 
-![Alt text](/screenshots/Screenshot_2020-06-27-12-05-44.png?raw=true "Screenshot input form")
+![Alt text](/screenshots/v8mqtt_test.gif?raw=true "MQTT test script")
 
 ## Basic API <a name="basic_api"></a>
 * console.log()
