@@ -5,6 +5,9 @@
 2. [BASI API](#basic_api)
 3. [MQTT API](#mqtt_api)
 4. [FCM API](#fcm_api)
+5. [Examples](#examples)
+5.1 [Input](#example_input)
+5.2 [FCM](#example_fcm)
 
 
 ## Introduction <a name="introduction"></a>
@@ -92,3 +95,9 @@ Publish a Firebase cloud message
 * `message` message to publisg, `JSON - String`
 
 [Example file v8fcm.js](/samples/fcm/v8fcm.js)
+
+## Examples <a name="examples"></a>
+## Input form example <a name="example_input"></a>
+![Alt text](/screenshots/v8input.gif?raw=true "Input form")
+## FCM example <a name="example_fcm"></a>
+![Alt text](/screenshots/v8fcm.gif?raw=true "FCM")
