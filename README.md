@@ -96,6 +96,21 @@ Publish a Firebase cloud message
 
 [Example file v8fcm.js](/samples/fcm/v8fcm.js)
 
+## HTTP API <a name="http_api"></a>
+* http.request()
+
+**http.request(options)**  
+Execute a http request
+* `options` http request options as JSON string, `String`
+
+
+[Example file v8http_httpbin_get.js](/samples/http/v8http_httpbin_get.js)
+[Example file v8http_httpbin_post.js](/samples/http/v8http_httpbin_post.js)
+[Example file v8http_httpbin_basicauth.js](/samples/http/v8http_httpbin_basicauth.js)
+[Example file v8http_httpbin_bearerauth.js](/samples/http/v8http_httpbin_bearerauth.js)
+[Example file v8http_httpbin_headers.js](/samples/http/v8http_httpbin_headers.js)
+
+
 ## Examples <a name="examples"></a>
 ## Input form example <a name="example_input"></a>
 ![Alt text](/screenshots/v8input.gif?raw=true "Input form")
