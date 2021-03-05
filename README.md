@@ -5,9 +5,10 @@
 2. [BASI API](#basic_api)
 3. [MQTT API](#mqtt_api)
 4. [FCM API](#fcm_api)
-5. [Examples](#examples)  
-5.1 [Input form](#example_input)  
-5.2 [FCM](#example_fcm)  
+5. [HTTP API](#http_api)
+6. [Examples](#examples)  
+6.1 [Input form](#example_input)  
+6.2 [FCM](#example_fcm)  
 
 
 ## Introduction <a name="introduction"></a>
