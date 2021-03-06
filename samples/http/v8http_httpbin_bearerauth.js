@@ -1,7 +1,7 @@
 //http bearer authorization example
 function main() { 
   rq = {
-    url: "http://httpbin.org/bearer",
+    url: "https://httpbin.org/bearer",
     method: "GET",
     authorization: "Bearer Bearertokenxyz"   
   }

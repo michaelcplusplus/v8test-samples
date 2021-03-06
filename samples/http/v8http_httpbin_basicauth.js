@@ -1,7 +1,7 @@
 //http basic auth example
 function main() { 
   rq = {
-    url: "http://httpbin.org/basic-auth/myuser/mypasswd",
+    url: "https://httpbin.org/basic-auth/myuser/mypasswd",
     method: "GET",
     basicAuth: {
       username: "myuser",

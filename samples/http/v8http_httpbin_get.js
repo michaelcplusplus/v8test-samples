@@ -1,7 +1,7 @@
 //http get example with parameters
 function main() { 
   rq = {
-    url: "http://httpbin.org/anything",
+    url: "https://httpbin.org/anything",
     method: "GET",
     queryParams: [
 	    	{ "key": "hello",
