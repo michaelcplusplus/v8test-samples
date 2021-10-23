@@ -82,7 +82,7 @@ Subscribe to a topic
 Disconnect from the broker
 
 **mqtt.onMqttMessage(callback)**  
-Call back function fired when message arrives
+Callback function fired when message arrives
 * `callback - function (topic, payload)` 
 
 [Example file v8mqtt_test.js](/samples/mqtt/v8mqtt_test.js)
