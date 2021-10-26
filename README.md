@@ -33,7 +33,7 @@ Text color: blue
 Prints to result view  
 Text color: red
 
-**\_read(filename, \[\convert])**  
+**\_read(filename, \[convert])**  
 Read filename and return content as string
 * `filename` filename, `String`
 * `convert` optional: convert from iso8859 to utf-8 , `Number 0(default) or 1`  
