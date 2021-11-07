@@ -101,7 +101,7 @@ Publish a Firebase cloud message
 * http.request()
 
 **http.request(options)**  
-Execute a http request
+Execute a http/https request
 * `options` http request options as JSON string, `String`
 
 
