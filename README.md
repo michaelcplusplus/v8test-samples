@@ -8,8 +8,8 @@
 5. [HTTP API](#http_api)
 6. [Examples](#examples)  
 6.1 [Input form](#example_input)  
-6.2 [FCM](#example_fcm)  
-
+6.2 [FCM](#example_fcm)
+7. [Show and tell](#show_and_tell)  
 
 ## Introduction <a name="introduction"></a>
 Sample files for Android app Exec JS V8 see Google playstore https://play.google.com/store/apps/details?id=de.mlauer.v8test  
@@ -121,3 +121,6 @@ Execute a http/https request
 ![Alt text](/screenshots/v8input.gif?raw=true "Input form")
 ## FCM example <a name="example_fcm"></a>
 ![Alt text](/screenshots/v8fcm.gif?raw=true "FCM")
+
+## Show and tell <a name="show_and_tell"></a>
+You are welcome to share your code example in the [Show and tell](https://github.com/michaelcplusplus/v8test-samples/discussions/categories/show-and-tell) GitHub discussion area.
